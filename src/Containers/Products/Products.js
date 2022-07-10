@@ -277,7 +277,6 @@ function Patients(props) {
                             />
                             {errors.quntity && touched.quntity ? <p>{errors.quntity}</p> : ''}
                             <br></br>
-                            <br></br>
                             <TextField
                                     value={values.date}
                                     margin="dense"

@@ -12,6 +12,8 @@ function App() {
     <Layout>
 
     <Route path={"/Products"} exact component={Products}/>
+    {/* <Route path={"/Products"} exact component={Products}/> */}
+
 
     </Layout>
 
